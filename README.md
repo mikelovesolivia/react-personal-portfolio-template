@@ -1,11 +1,12 @@
 # React Personal Portfolio Template
 
+[Demo](https://mikelovesolivia.github.io/react-personal-portfolio-template/)
+
 A dynamic personal portfolio template built with React.
 It provides an easy-to-use platform for developers, researchers and students to showcase their work visually.
 
-<img src="./public/web-demo.png" alt="demo" />
-<br>
-<a href="https://mikelovesolivia.github.io/react-personal-portfolio-template/">[Demo]</a>
+![Demo](./public/web-demo.png)
+
 
 ## Layout
 

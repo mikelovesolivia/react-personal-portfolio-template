@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-personal-portfolio-template/static/css/main.d2d73f9d.css",
+    "main.js": "/react-personal-portfolio-template/static/js/main.dd844bab.js",
+    "static/js/453.0437a03d.chunk.js": "/react-personal-portfolio-template/static/js/453.0437a03d.chunk.js",
+    "static/media/blank-chalkboard-background-with-border.png": "/react-personal-portfolio-template/static/media/blank-chalkboard-background-with-border.0b5c2c6dea2356ddcd7a.png",
+    "static/media/natural-paper.png": "/react-personal-portfolio-template/static/media/natural-paper.4059dca9113a0926a9cd.png",
+    "static/media/retina_wood.png": "/react-personal-portfolio-template/static/media/retina_wood.e67e77ae851066c33982.png",
+    "static/media/notebook.png": "/react-personal-portfolio-template/static/media/notebook.3200a3b29b5497577284.png",
+    "static/media/type.png": "/react-personal-portfolio-template/static/media/type.b9639203528c5b651750.png",
+    "index.html": "/react-personal-portfolio-template/index.html",
+    "static/media/paper-clip-svgrepo-com.svg": "/react-personal-portfolio-template/static/media/paper-clip-svgrepo-com.251dfc28591d606f573e.svg",
+    "main.d2d73f9d.css.map": "/react-personal-portfolio-template/static/css/main.d2d73f9d.css.map",
+    "main.dd844bab.js.map": "/react-personal-portfolio-template/static/js/main.dd844bab.js.map",
+    "453.0437a03d.chunk.js.map": "/react-personal-portfolio-template/static/js/453.0437a03d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2d73f9d.css",
+    "static/js/main.dd844bab.js"
+  ]
+}

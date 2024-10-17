@@ -1,9 +1,5 @@
 # React Personal Portfolio Template
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-[![Hi](https://img.shields.io/badge/Author's%20Website-blue)](https://mikelovesolivia.github.io/)
-
-[![Demo](https://img.shields.io/badge/Demo-green)](https://mikelovesolivia.github.io/react-personal-portfolio-template/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Hi](https://img.shields.io/badge/Author's%20Website-blue)](https://mikelovesolivia.github.io/) [![Demo](https://img.shields.io/badge/Project_Demo-green)](https://mikelovesolivia.github.io/react-personal-portfolio-template/)
 
 A dynamic personal portfolio template built with React.
 It provides an easy-to-use platform for developers, researchers and students to showcase their work visually.

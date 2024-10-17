@@ -4,6 +4,12 @@
 A dynamic personal portfolio template built with React.
 It provides an easy-to-use platform for developers, researchers and students to showcase their work visually.
 
+Don't hesitate to fork and customize your website if you like the design! :)
+
+If you find the project useful, please star the project. Thank you!
+
+Please feel free to ask me any questions if you encounter problems or have some suggestions.
+
 ![Demo](./public/web-demo.png)
 
 
@@ -98,7 +104,7 @@ Deployment is done following this [Doc](https://github.com/gitname/react-gh-page
 
   into your GitHub address 
   
-  ```https://<your_github_username>.github.io/<your_repo_name>/```
+  ```"https://{your_github_username}.github.io/{your_repo_name}/"```
 
 - Install the `gh-pages` package 
 

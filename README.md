@@ -43,11 +43,15 @@ git clone https://github.com/mikelovesolivia/react-personal-portfolio-template.g
 
 Then go to the project folder and install the required JavaScript packages by
 
-```npm install```
+```
+npm install
+```
 
 Finally, you can start the project by running
 
-```npm start```
+```
+npm start
+```
 
 And you will see it run on [http://localhost:3000](http://localhost:3000/).
 
@@ -83,6 +87,9 @@ And you will see it run on [http://localhost:3000](http://localhost:3000/).
   - If you have your own blog already, just change the link above to yours.
   - If you do not have a blog but want to have one, you can build it with [Hexo](https://hexo.io/). You can follow this [tutorial](https://hexo.io/docs/).
 
+- Track your visitors
+  - This project uses [RevolverMaps](https://www.revolvermaps.com/) to track and record vistor statistics. If you want to customize your own visitor statistics widget, change `script.src` in line 8 of `./src/components/VisitorMap.jsx` to the link of your selected widget's.
+
 ## Deploy on GitHub Pages
 
 Deployment is done following this [Doc](https://github.com/gitname/react-gh-pages):
@@ -93,24 +100,32 @@ Deployment is done following this [Doc](https://github.com/gitname/react-gh-page
   into your GitHub address 
   
   ```https://<your_github_username>.github.io/<your_repo_name>/```
-  
+
 - Install the `gh-pages` package 
 
-  ```npm install gh-pages --save-dev```
+  ```
+  npm install gh-pages --save-dev
+  ```
 
 - Initialize `git`
 
-  ```git init```
+  ```
+  git init
+  ```
 
 - Add a remote GitHub repo to the local Git repo
   
-  ```git remote add origin https://github.com/{your_github_username}/{your_repo_name}.git```
+  ```
+  git remote add origin https://github.com/{your_github_username}/{your_repo_name}.git
+  ```
 
 - Finally you can deploy by
 
-  ```npm run deploy``` 
+  ```
+  npm run deploy
+  ``` 
   
-  and you will see it in your `gh-pages` branch.
+  and you will find it in your `gh-pages` branch.
 - If you haven't made a GitHub Page for your repo, go to `Settings/Pages/` and change the `branch` under `Build and deployment` from `main` (or other branches) to `gh-pages`. You will see the change in few minutes.
   
 ## Technologies used

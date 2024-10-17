@@ -43,11 +43,11 @@ git clone https://github.com/mikelovesolivia/react-personal-portfolio-template.g
 
 Then go to the project folder and install the required JavaScript packages by
 
-`npm install`
+```npm install```
 
 Finally, you can start the project by running
 
-`npm start`
+```npm start```
 
 And you will see it run on [http://localhost:3000](http://localhost:3000/).
 
@@ -87,16 +87,30 @@ And you will see it run on [http://localhost:3000](http://localhost:3000/).
 
 Deployment is done following this [Doc](https://github.com/gitname/react-gh-pages):
 - Go to `package.json` and change the URL of `"homepage"` in line 5
+
   ```"homepage": "https://mikelovesolivia.github.io/react-personal-portfolio-template/"```
-  into your GitHub address `https://<your_github_username>.github.io/<your_repo_name>/`
+
+  into your GitHub address 
+  
+  ```https://<your_github_username>.github.io/<your_repo_name>/```
+  
 - Install the `gh-pages` package 
+
   ```npm install gh-pages --save-dev```
+
 - Initialize `git`
+
   ```git init```
+
 - Add a remote GitHub repo to the local Git repo
+  
   ```git remote add origin https://github.com/{your_github_username}/{your_repo_name}.git```
+
 - Finally you can deploy by
-  ```npm run deploy``` and you will see it in your `gh-pages` branch.
+
+  ```npm run deploy``` 
+  
+  and you will see it in your `gh-pages` branch.
 - If you haven't made a GitHub Page for your repo, go to `Settings/Pages/` and change the `branch` under `Build and deployment` from `main` (or other branches) to `gh-pages`. You will see the change in few minutes.
   
 ## Technologies used

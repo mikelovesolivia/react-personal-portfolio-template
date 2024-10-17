@@ -1,0 +1,188 @@
+/* home */
+.icon-hover:hover {
+    color: gray;
+    transform: scale(1.1);
+    transition: transform 0.2s, color 0.2s;
+}
+
+.text-and-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.multiline-text {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.skillset-text {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 5px;
+    z-index: 1;
+    font-family: "Pacifico";
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: olive;
+    margin-left: 40px
+}
+
+.wordcloud-container {
+    margin-left: 80px;
+}
+
+@media (max-width: 768px) {
+    .wordcloud-container {
+        margin-left: 0;
+    }
+    .skillset-text {
+        margin-left: 0;
+        top: 0;
+    }
+}
+
+/* experience */
+.vertical-timeline-element-subtitle {
+    font-size: 0.9rem !important;
+}
+
+.experience-location {
+    margin-top: 3px;
+    color: #888;
+    font-size: 0.7rem !important;
+}
+
+.experience-description {
+    font-size: 0.7rem !important;
+}
+
+.experience-badge {
+    font-size: 13px !important;
+    text-align: left !important;
+    padding: 5px 8px 5px 8px !important;
+    vertical-align: baseline;
+    color: white;
+    font-weight: lighter !important;
+    font-family: 'Oxygen', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #AE944F !important;
+}
+
+/* about */
+
+.about-border {
+    border: 10px solid #9ACD32;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.about-btn {
+    background-color: #A2B5CD !important;
+    border-color: #A2B5CD !important;
+    color: white !important;
+}
+
+
+.about-btn:hover {
+    background-color: #A1B0BC !important;
+    border-color: #A1B0BC !important;
+}
+
+.about-skills-card {
+    background: linear-gradient(to bottom, #ffffff, #f8f8f8, #e8e8e8);
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-skills-card .card-header {
+    font-size: 1rem;
+    background: linear-gradient(to bottom, #fef3c7, #f6e58d, #d5ab6e);
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1), 3px 3px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-skills-card .card-header::before,
+.about-skills-card .card-header::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #d5ab6e;
+    border-radius: 50%;
+    border: 2px solid #b08a5e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(-50%);
+}
+
+.about-skills-card .card-header::before {
+    left: 25px;
+}
+
+.about-skills-card .card-header::after {
+    right: 25px;
+}
+
+.about-skills-card .card-title {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.about-skills-card .card-text {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.wood-texture {
+    background-image: url('../../public/retina_wood.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.paper-texture {
+    background-color: #ded1bc;
+    background-image: url("../../public/natural-paper.png");
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.mixture-texture {
+    background-color: #fafad2;
+    background-image: url("../../public/type.png");
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+
+.notebook-background {
+    background-image: url('../../public/notebook.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* projects */
+.visitor-map {
+    position: absolute;
+    /*top: 250px;*/
+    bottom: 0px;
+    width: 100%;
+}

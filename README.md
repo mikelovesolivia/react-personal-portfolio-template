@@ -79,7 +79,7 @@ And you will see it run on [http://localhost:3000](http://localhost:3000/).
   - Modify the data files `(.js)` following the example code and comment instructions.
 
 - Make your blog
-  - If you do not want a blog, you can remove line 59 ~ 65 to disable the blog section:
+  - If you do not want a blog, you can remove `line 59 ~ 65` to disable the blog section:
   ```jsx
   <Nav.Link 
     href="https://mikelovesolivia.github.io/react-personal-portfolio-template/"
@@ -90,15 +90,15 @@ And you will see it run on [http://localhost:3000](http://localhost:3000/).
   </Nav.Link>
   ```
   - If you have your own blog already, just change the link above to yours.
-  - If you do not have a blog but want to have one, you can build it with [Hexo](https://hexo.io/). You can follow this [tutorial](https://hexo.io/docs/).
+  - If you do not have a blog but want to have one, you can build it with [Hexo](https://hexo.io/). You can follow this [tutorial](https://hexo.io/docs/). For the theme, I used [Keep](https://github.com/XPoet/hexo-theme-keep?tab=readme-ov-file) for my [blog](https://mikelovesolivia.github.io/blog/) and it offers very detailed [documents](https://keep-docs.xpoet.cn/). You can also pick your favorite one on [Hexo Themes](https://hexo.io/themes/).
 
 - Track your visitors
-  - This project uses [RevolverMaps](https://www.revolvermaps.com/) to track and record vistor statistics. If you want to customize your own visitor statistics widget, change `script.src` in line 8 of `./src/components/VisitorMap.jsx` to the link of your selected widget's.
+  - This project uses [RevolverMaps](https://www.revolvermaps.com/) to track and record vistor statistics. If you want to customize your own visitor statistics widget, change `script.src` in `line 8` of `./src/components/VisitorMap.jsx` to the link of your selected widget's.
 
 ## Deploy on GitHub Pages
 
 Deployment is done following this [Doc](https://github.com/gitname/react-gh-pages):
-- Go to `package.json` and change the URL of `"homepage"` in line 5
+- Go to `package.json` and change the URL of `"homepage"` in `line 5`
 
   ```"homepage": "https://mikelovesolivia.github.io/react-personal-portfolio-template/"```
 

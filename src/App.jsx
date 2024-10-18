@@ -57,7 +57,7 @@ function App() {
               you can build with Hexo, deploy on GitHub and paste 
               the link here. */}
               <Nav.Link
-                href="https://mikelovesolivia.github.io/react-personal-portfolio-template/"
+                href="https://mikelovesolivia.github.io/blog/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

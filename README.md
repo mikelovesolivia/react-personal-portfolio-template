@@ -82,7 +82,7 @@ And you will see it run on [http://localhost:3000](http://localhost:3000/).
   - If you do not want a blog, you can remove `line 59 ~ 65` to disable the blog section:
   ```jsx
   <Nav.Link 
-    href="https://mikelovesolivia.github.io/react-personal-portfolio-template/"
+    href="https://mikelovesolivia.github.io/blog/"
     target="_blank"
     rel="noopener noreferrer"
   >

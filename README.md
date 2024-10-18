@@ -130,7 +130,7 @@ Deployment is done following this [Doc](https://github.com/gitname/react-gh-page
   npm run deploy
   ``` 
   
-  and you will find it in your `gh-pages` branch.
+  it takes a few while and afterwards you will find it in your `gh-pages` branch.
 - If you haven't made a GitHub Page for your repo, please go to `Settings/Pages` and change the `branch` under `Build and deployment` from `main` (or other branches) to `gh-pages`. (Follow this [tutorial](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) for more details.) You will see the change in few minutes.
   
 ## Technologies used
